@@ -1578,6 +1578,10 @@ textarea.input {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
 }
 
 .blog {
@@ -3184,6 +3188,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     width: 100%;
   }
 
+  .header__container {
+    -ms-grid-columns: auto 1fr;
+    grid-template-columns: auto 1fr;
+  }
+
   .header__button {
     margin-top: 1.875rem;
   }
@@ -4108,6 +4117,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -webkit-transform: translateX(0.3125rem);
         -ms-transform: translateX(0.3125rem);
             transform: translateX(0.3125rem);
+  }
+
+  .gallery__image:hover img {
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
   }
 
   .card-blog__image:hover img {
