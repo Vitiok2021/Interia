@@ -12,7 +12,5 @@
 - Слайдери та анімації для кращої взаємодії з користувачем.
 
 ## Демо
-[Live Demo](https://vitiok2021.github.io/interia)
+[Live Demo](https://vitiok2021.github.io/Interia/)
 
-## Скриншот
-![Interia Screenshot](https://path_to_screenshot_image.jpg)
